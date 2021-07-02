@@ -1,0 +1,85 @@
+.job-listing-container{
+    padding: 3rem 20rem;
+    background-color: #F1F9FA;
+    font-size: 0.9em;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.card:hover{
+    border-left: 5px solid #5FA3A4;
+}
+
+.job-type{
+    display: flex;
+}
+
+.new-badge{
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    background-color: #7B9E9B;
+    color: white;
+    font-size: 0.8em;
+
+}
+
+.company-logo-div{
+    align-self: center;
+    width: 4em;
+    margin-right: 1rem;
+}
+
+
+.company-logo-div img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.time-stamp-div{
+    display: flex;
+}
+
+.timestamp{
+    color: #CECECE;
+    margin-left: 0.5rem;
+}
+
+.job-tag{
+    display: flex;
+    align-items: center;
+}
+
+.job-tag p{
+    padding: 0.3rem;
+    font-size: 0.8em;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    background-color: #EBF7F5;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .job-listing-container{
+        padding: 1rem;
+        background-color: #F1F9FA;
+    }
+
+    .card{
+        padding: 1rem;
+    }
+
+
+  }
