@@ -1,10 +1,10 @@
 import './App.css';
-import JobListing from './components/JobListing';
+import JobPage from './components/JobPage';
 
 function App() {
   return (
     <div >
-      <JobListing />
+      <JobPage />
     </div>
   );
 }
