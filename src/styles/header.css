@@ -1,0 +1,14 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    background: rgb(94,166,151);
+    background: radial-gradient(circle, rgba(94,166,151,1) 0%, rgba(100,140,186,1) 35%, rgba(6,159,189,1) 100%);    
+}
+
+.header-container p{
+    font-family: 'Italianno', cursive;
+    font-size: 2em;
+    color: white;
+}

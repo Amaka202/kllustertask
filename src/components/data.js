@@ -11,6 +11,7 @@ import allsetLogo from '../images/allset-logo.jpeg'
 
 export const jobData = [
     {
+        id: 101,
         logo: asknedLogo,
         companyName: 'Ask Ned',
         timestamp: '1 sec ago',
@@ -19,6 +20,7 @@ export const jobData = [
         newPost: true
     },
     {
+        id: 102,
         logo: bottleupLogo,
         companyName: 'Bottle up',
         timestamp: '2 mins ago',
@@ -27,6 +29,8 @@ export const jobData = [
         newPost: true
     },
     {
+        id: 103,
+
         logo: elevatarLogo,
         companyName: 'Elevatar',
         timestamp: '1 hour ago',
@@ -36,6 +40,7 @@ export const jobData = [
 
     },
     {
+        id: 104,
         logo: everchangeLogo,
         companyName: 'Ever Change',
         timestamp: '3 hours ago',
@@ -45,6 +50,7 @@ export const jobData = [
 
     },
     {
+        id: 105,
         logo: flashLogo,
         companyName: 'Flash',
         timestamp: '5 hours ago',
@@ -54,6 +60,7 @@ export const jobData = [
 
     },
     {
+        id: 106,
         logo: greensporkLogo,
         companyName: 'Green Spork',
         timestamp: '8 hours ago',
@@ -63,6 +70,7 @@ export const jobData = [
 
     },
     {
+        id: 107,
         logo: iterateLogo,
         companyName: 'Iterate',
         timestamp: '10 hours ago',
@@ -72,6 +80,7 @@ export const jobData = [
 
     },
     {
+        id: 108,
         logo: smartassistLogo,
         companyName: 'Smart Assist',
         timestamp: '17 hours ago',
@@ -81,6 +90,7 @@ export const jobData = [
 
     },
     {
+        id: 109,
         logo: teamsyncLogo,
         companyName: 'Team Sync',
         timestamp: '22 hours ago',
@@ -90,6 +100,7 @@ export const jobData = [
 
     },
     {
+        id: 110,
         logo: allsetLogo,
         companyName: 'All Set',
         timestamp: '1 day ago',

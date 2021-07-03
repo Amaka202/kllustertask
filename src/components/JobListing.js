@@ -6,7 +6,7 @@ function JobListing({ data }) {
         <div >
             {data.map(job => {
                 return (
-                    <div className='card'>
+                    <div className='card' key={job.id}>
                         <div className='job-type'>
                             <div className='company-logo-div'>
                                 <img src={job.logo} alt='company logo' />
@@ -21,9 +21,9 @@ function JobListing({ data }) {
                             </div>
                         </div>
                         <div className='job-tag'>
-                            {job.jogTags.map(tag => {
+                            {job.jogTags.map((tag, index) => {
                                 return (
-                                    <p>{tag}</p>
+                                    <p key={index}>{tag}</p>
                                 )
                             })}
                         </div>
